@@ -20,7 +20,7 @@ maintainers = [
 ]
 description = "Asyncio scheduler with tasks"
 readme = "README.md"
-license = {file = "LICENSE.txt"}
+license = {file = "LICENSE"}
 keywords = ["async", "scheduler", "tasks", "multi-threads", "event loop"]
 classifiers = [
   "Development Status :: 4 - Beta",
