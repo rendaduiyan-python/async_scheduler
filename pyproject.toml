@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "asyncio_scheduler"
+version = "1.0.0"
+dependencies = [
+  "tornado>=6.4.1",
+  "pytest>=8.3.2",
+  "pytest-asyncio>=0.23.8",  
+]
+
+requires-python = ">=3.8"
+authors = [
+  {name = "Haibo Lei", email = "duiyanrenda@gmail.com"},  
+]
+maintainers = [
+  {name = "Haibo Lei", email = "duiyanrenda@gmail.com"},  
+]
+description = "Asyncio scheduler with tasks"
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+keywords = ["async", "scheduler", "tasks", "multi-threads", "event loop"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+
+[project.urls]
+Repository = "https://github.com/rendaduiyan-python/async_scheduler.git"
+"Bug Tracker" = "https://github.com/rendaduiyan-python/async_scheduler/issues"
+Changelog = "https://github.com/rendaduiyan-python/async_scheduler/CHANGELOG.md"
