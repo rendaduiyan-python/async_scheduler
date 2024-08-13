@@ -2,7 +2,7 @@ import asyncio
 import pytest
 from unittest.mock import MagicMock
 from typing import Tuple, List
-from async_scheduler.scheduler import AsyncScheduler
+from asyncio_scheduler.scheduler import AsyncScheduler
 from .common import (
     log,
     EmptyAsyncTask,

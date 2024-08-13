@@ -3,7 +3,7 @@ import random
 import time
 import asyncio
 
-from async_scheduler.scheduler import AsyncTask, SyncTask
+from asyncio_scheduler.scheduler import AsyncTask, SyncTask
 
 logging.basicConfig(format='%(levelname)s:%(message)s',
                     level=logging.DEBUG)

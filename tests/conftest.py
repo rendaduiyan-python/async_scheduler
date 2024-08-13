@@ -1,7 +1,7 @@
 import pytest_asyncio
 import asyncio
-from async_scheduler.scheduler import AsyncScheduler
-from async_scheduler.thread import SchedulerThread
+from asyncio_scheduler.scheduler import AsyncScheduler
+from asyncio_scheduler.thread import SchedulerThread
 
 
 @pytest_asyncio.fixture()

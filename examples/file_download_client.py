@@ -1,6 +1,6 @@
 import asyncio
 from tornado.httpclient import AsyncHTTPClient
-from async_scheduler.scheduler import AsyncScheduler
+from asyncio_scheduler.scheduler import AsyncScheduler
 from tests.common import log
 
 http_client = AsyncHTTPClient()

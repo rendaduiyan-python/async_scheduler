@@ -6,7 +6,7 @@ from tornado.web import RequestHandler, Application
 from tornado.httputil import HTTPServerRequest
 from typing import Any
 from tests.common import log
-from async_scheduler.scheduler import (
+from asyncio_scheduler.scheduler import (
     AsyncTask, 
     AsyncScheduler, 
     AsyncTask,
