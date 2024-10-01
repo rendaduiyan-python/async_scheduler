@@ -13,10 +13,10 @@ dependencies = [
 
 requires-python = ">=3.8"
 authors = [
-  {name = "Haibo Lei", email = "duiyanrenda@gmail.com"},  
+  {name = "rendaduiyan", email = "duiyanrenda@gmail.com"},  
 ]
 maintainers = [
-  {name = "Haibo Lei", email = "duiyanrenda@gmail.com"},  
+  {name = "rendaduiyan", email = "duiyanrenda@gmail.com"},  
 ]
 description = "Asyncio scheduler with tasks"
 readme = "README.md"
