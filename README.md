@@ -112,4 +112,3 @@ Async task completed
 ```
 
 This shows that the task was submitted, executed, and returned successfully. The `task_info()` method was used to print the task details after completion.
-test
