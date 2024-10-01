@@ -81,7 +81,7 @@ def main():
 
     task = AsyncTask("my_async_task")
     task.run_async = my_async_task
-    task.run_async = my_async_task
+    task.run_async = my_async_task                # error: task.done_cb = my_callback
     task.data.timeout = 2
 
     scheduler.start()
