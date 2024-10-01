@@ -12,6 +12,9 @@ log = logging.getLogger('scheduler')
 
 
 class EmptyAsyncTask(AsyncTask):
+    '''
+    Dummy AsyncTask to test scheduling and executing.
+    '''
     _DURATION = 4
 
     def __init__(self, name: str, timeout: int = -1):
@@ -31,6 +34,9 @@ class EmptyAsyncTask(AsyncTask):
 
 
 class EmptySyncTask(SyncTask):
+    '''
+    Dummy SyncTask to test scheduling and executing.
+    '''
     _DURATION = 4
 
     def __init__(self, name: str, timeout: int = -1):
